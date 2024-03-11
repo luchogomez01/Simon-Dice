@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+main{
+    text-align: center;
+}
+section{
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    width: 0px;
+    margin: 40px auto;
+}
+.rojo{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-top: solid 4px beige;
+    border-left: solid 4px beige;
+    cursor: pointer;
+}
+.azul{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border-top: solid 4px beige;
+    border-right: solid 4px beige;
+    cursor: pointer;
+}
+.amarillo{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border-bottom: solid 4px beige;
+    border-left: solid 4px beige;
+    cursor: pointer;
+}
+.verde{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-bottom: solid 4px beige;
+    border-right: solid 4px beige;
+    cursor: pointer;
+}
+.active{ opacity: .5; }

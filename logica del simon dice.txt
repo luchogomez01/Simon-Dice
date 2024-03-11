@@ -1,0 +1,20 @@
+inicializar un array vacio llamado _arrayColores scope global
+
+1- boton inicia juego.
+
+2- juego de los cuadrados elige un cuadrado de color de manera aleatoria.
+    
+	-agarrar un color de los 4 de manera aleatoria desde un array declarado en esta funcion               
+	-la salida seria que guarde el valor del color elegido en el array vacio.
+
+3- muestra al jugador el cuadrado de color elegido poniendole un filtro al color
+	-agarra el _arrayColores con los valores guardados de la funcion en el punto 2
+	-reproduce el / los colores en el orden del _arrayColores poniendole un filtro
+
+4- jugador clickea un cuadrado de color
+	funcion que valide por booleano comparando los valores del array con el valor que devuelve clickear el cuadrado de color si lo clickeado es correcto o no:
+       		-si es false: alert ("perdiste, fin del juego")
+       		-si es true, continua el juego 
+
+	
+5- se repite el punto 2, 3, 4 y 5 hasta que el jugador se equivoque y pierda.
